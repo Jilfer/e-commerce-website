@@ -1,0 +1,360 @@
+/* .navbar{
+  display: flex;
+  position: absolute;
+  margin: 10px;
+  top: 0;
+  background-color: antiquewhite;
+ 
+} */
+
+*{
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; 
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-transform: capitalize;
+  outline: none;
+  border: none;
+  text-decoration: none;
+  transition: all .2s linear; 
+}
+
+*::selection{
+    background: var(--orange);
+    color: rgb(246, 183, 124);
+}
+
+html{
+    font-size: 62.5%;
+    overflow-x: hidden;
+    scroll-padding-top: 6rem;
+    scroll-behavior: smooth;
+}
+header{
+  position: fixed;
+  top: 0%;
+  left: 0;
+  right: 0;
+  background: rgb(61, 61, 61);
+  z-index: 1000;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 2rem 9%;
+}
+
+header .logo{
+  font-size: 2.5rem;
+  font-weight: bolder;
+  color: #fff;
+  text-transform: uppercase;
+}
+
+header .logo span{
+ color: bisque;
+}
+
+header .navbar a{
+
+  color: #fff;
+  font-size: 2rem;
+  margin:0.8rem;
+  margin-left: 130px;
+} 
+.po{
+  margin-left: 850px;
+}
+
+header .navbar a:hover{
+  color: bisque;
+}
+
+header .icon i{
+  font-size: 2.5rem;
+  color:#fff ;
+  cursor: pointer;
+  margin-right: 2rem;
+}
+header .icon i:hover{
+ color:bisque; 
+}
+header .search-bar-container{
+  position: absolute;
+  top: 50%;
+  left: 0%;
+  right: 0;
+  padding:1.5rem 2rem ;
+  padding-right: 100px;
+  background: #333;
+  border-top: .1rem solid rgba(255, 255, 255, .2);
+  display:flex ;
+  align-items: center;
+
+}
+
+header .search-bar-container #search-bar{
+  width: 100%;
+  padding-right: 100px;
+  text-transform: none;
+  color: #333;
+  font-size: 1.7rem;
+  border-radius: .5rem;
+}
+header .search-bar-container label{
+  color: #fff;
+  cursor: pointer;
+  font-size: 3rem;
+  padding-right: 100px;
+  margin-left: 1.5rem;
+}
+header .search-bar-container label:hover{
+ color:var(--orange); 
+}
+body{
+  height: 200rem;
+}
+ 
+  .col-md-3{
+    margin-left: 400px;
+  }
+  .cl{
+    margin-left: 5px;
+  }
+  .container-fluid{
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+  }
+  .d-block{
+    width: 1500px;
+  }
+  
+  .carousel-item {
+    box-shadow: 1px 2px 10px;
+  }
+  .op{
+    width: 100px;
+    height: 30px;
+    background-color: antiquewhite;
+  }
+  .ji{
+    background-color: rgb(138, 118, 14);
+  }
+  .carousel-caption {
+    position: absolute;
+      top: 50%;
+      padding: 50px;
+      color:whitesmoke ;
+      padding-left: 200px;
+      text-align: center;
+    
+  }
+  .carousel-caption1 {
+    position: absolute;
+    top: 1350px;
+    padding: 100px;
+    color: #ecf0f1;
+    padding-left: 400px;
+    text-align: center;
+
+  }
+  
+  
+  .slider-title {
+      font-size: 80px;
+      text-align: center;
+      
+      
+  }
+  .mr-3 {
+    width: 100px;
+    height: 100px;
+  }
+
+  
+  .slider-text {
+      font-size: 30px;
+  }
+  .text-light  {
+    margin-left: 150px;
+
+  }
+  .m{
+    margin-left: 100px;
+  }
+  .sr-only{
+    margin-left: 100px;
+
+  }
+  .form-control{
+    padding: 10px;
+    margin-left: 150px;
+    margin-bottom: 10px;
+
+  }
+  .social-icons{
+    margin-left: 100px;
+  }
+  
+  
+  
+  
+  
+  
+  
+  .outer-div{
+      height: 350px;
+      overflow: hidden
+          
+  }
+  .inner-div1{
+      height: 300px;
+      width: 400px;
+      margin-left: 10px;
+      background-size: cover;
+      background-position: center;
+      transition: all 0.5s ease;
+      display: flex;
+      background-image: url(for-men.jpg);
+      
+  }
+  .inner-div1:hover{
+      transform: scale(1.2)
+  }
+  .inner-div2{
+    display: flex;
+      height: 300px;
+      width: 400px;
+      margin-left: 400px;
+      margin-bottom: 100px;
+      background-size: cover;
+      background-position: center;
+      transition: all 0.5s ease;
+      position: absolute;
+      background-image: url(for-women.jpg);
+      
+      
+  }
+  .inner-div2:hover{
+      transform: scale(1.2)
+  }
+  .zoom-box-text{
+      text-align: center;
+      line-height: 300px;
+      margin-left: 150px;
+      margin-top: 100px;
+    
+  }
+  .zoom-box-text {color: white; }
+  
+  .counter{
+      background-image: url(product-bg.jpg);
+      width: 900px;
+      height: 500px;
+      background-attachment: fixed;
+      background-size: cover;
+      color: white;
+      text-align: center;
+      margin-left: 300px;
+  }
+  .col-md-6{
+    width: 500px;
+    margin-left: 500px;
+  }
+  .card {
+    width: 200px;
+    margin-left: 150px;
+    margin-right: 200px;
+  }
+  .p{
+    padding: 10px;
+    margin-bottom: 100px;
+    margin-right: 150px;
+  }
+  
+  
+  
+  .product-card{
+      border: none;
+      text-align: center;
+      position: relative;
+      
+  }
+  
+  .product-card .card-title{
+      font-weight: 600; font-size: 22px;
+  }
+  .product-card .card-text{font-size: 16px}
+  
+  .product-card:before{
+      content: "\f217";
+      font-family: FontAwesome;
+      font-style: normal;
+      font-weight: normal;
+      text-decoration: inherit;
+      color: deeppink;
+      font-size: 20px;
+      padding-right: 10px;
+      position: absolute;
+      top: 10px;
+      left: 10px;
+  }
+  
+  
+  #discount{
+      background-image: url(group.jpg);
+      background-attachment: fixed;
+      background-size: cover;
+      background-repeat: no-repeat;
+  }
+  .discount-session-content {
+      padding: 150px 0;
+      color: rgb(79, 4, 126);
+  }
+  .social-icons {
+      font-size: 100px;
+      color: white;
+  }
+  .col-md-6 {
+    color: rgb(90, 5, 84);
+  }
+  
+  .media-body{
+    color: rgb(90, 5, 84);
+  }
+  .col-md-3 h3{
+    color: rgb(160, 13, 150);
+  }
+  .lim{
+    color: rgb(156, 11, 146);
+  }
+  
+  .icon{
+      font-size: 60px;
+      color: dimgray;
+  }
+  .payment-method {
+      padding: 10px 40px 30px 20px;
+      background-color: #F8F8F8;
+      border-radius: 30px;
+      -webkit-box-shadow: inset 1px 0px 12px 0px rgba(0,0,0,0.5);
+      -moz-box-shadow: inset 1px 0px 12px 0px rgba(0,0,0,0.5);
+      box-shadow: inset 1px 0px 12px 0px rgba(0,0,0,0.5);
+  }
+  
+  
+  footer{
+      background-image: url(po.jpg);
+      background-attachment: fixed;
+      background-size: cover;
+      background-position: center center;
+      color: aliceblue;
+  }
+  
+  
+  
+  
+  
+  
+  
+  
+  
